@@ -1,0 +1,64 @@
+<?php include(php/email.php); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Brandon Benefield Portfolio</title>
+
+    <!-- Bootstrap CSS, Font-Awesome, Personalized -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+  </head>
+  <body>
+    <div id="top-nav">
+<nav>
+  <h1 class="logo">&lt;!bsds&gt;</h1>
+  <i class="fa fa-bars fa-2x"></i>
+  <button class="btn tabs tabs-about">ABOUT</button>
+  <button class="btn tabs tabs-portfolio">PROJECTS</button>
+  <button class="btn tabs tabs-contact">CONTACT</button>
+</nav>
+</div>
+
+<div class="main-about text-center">
+  <h2>
+    I'm <span class="subl-class">Brandon</span>, a Front End Web Developer and UX/UI Designer
+  </h2>
+  <p class="h4 hr-code">&lt;/&gt;</p>
+  <h3 class="skills subl-class">Web Developer</h3>
+  <h3 class="skills subl-class">UX/UI</h3>
+  <h3 class="skills subl-class">Easy to Navigate Web Apps</h3>
+  <h3 class="skills subl-class">Aspiring Full-Stack Developer</h3>
+</div>
+
+<div class="main-portfolio text-center">
+  <h2>Check out some of my <span class="subl-class">projects</span></h2>
+  <p class="h4 hr-code">&lt;/&gt;</p>
+  <a href="https://codepen.io/bbenefield/full/pwPEMP"><img class="img-responsive image-rounded" src="http://res.cloudinary.com/bbenefield/image/upload/v1498448263/tribute_e6nxdr.png"></a>
+</div>
+
+<div class="main-contact">
+  <form action="email.php" method="post">
+    <input class="form-control" name="name" type="text" id="name" size="32" placeholder="Name" required>
+    
+    <input class="form-control" name="email" type="email" id="email" size="32" placeholder="Email Address" required>
+    
+    <textarea class="form-control" name="comment" cols="45" rows="6" id="comment" class="bodytext" placeholder="Your message goes here" required></textarea>
+    
+    <a href="http://www.bbenefield.com"><input class="btn btn-success" type="submit" name="Submit" value="Send"></a>
+</form> 
+</div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS, then personalized JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+  </body>
+</html>
