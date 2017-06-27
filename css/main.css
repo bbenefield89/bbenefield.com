@@ -125,6 +125,7 @@
   }
 
   .media-stuff {
+    margin: 1em .25em 0em .25em;
     color: white;
   }
 }
