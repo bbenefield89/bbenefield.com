@@ -112,7 +112,21 @@
   .form-control {
     width: 80%;
     margin-bottom: 1em;
-  }  
+  }
+
+/**
+*** Footer
+**/
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .media-stuff {
+    color: white;
+  }
 }
 
 /**
