@@ -128,6 +128,10 @@
     margin: 1em .25em 0em .25em;
     color: white;
   }
+
+  .media-stuff:hover {
+    transform: scale(1.2);
+  }
 }
 
 /**
