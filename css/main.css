@@ -35,9 +35,15 @@
   }
 
   .tabs:hover {
-    animation-name: hover;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    -webkit-animation: hover 1s forwards;
+    animation: hover 1s forwards;
+  }
+
+  @-webkit-keyframes hover {
+    100% {
+      background-color: white;
+      color: rgb(39, 40, 34);
+    }
   }
 
   @keyframes hover {
