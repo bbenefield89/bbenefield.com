@@ -35,8 +35,16 @@
   }
 
   .tabs:hover {
-    background-color: white;
-    color: rgb(39, 40, 34);
+    animation-name: hover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes hover {
+    100% {
+      background-color: white;
+      color: rgb(39, 40, 34);
+    }
   }
   
   .tabs:focus, .tabs:active {
