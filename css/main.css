@@ -100,12 +100,15 @@
     margin: 9em 1em 1em 1em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     display: none;
   }
   
   .image-rounded {
     border-radius: 10%;
+  }
+
+  #port-pens {
+    margin-top: 2em;
   }
   
 /**
