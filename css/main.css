@@ -41,15 +41,13 @@
 
   @-webkit-keyframes hover {
     100% {
-      background-color: white;
-      color: rgb(39, 40, 34);
+      background-color: #131111;
     }
   }
 
   @keyframes hover {
     100% {
-      background-color: white;
-      color: rgb(39, 40, 34);
+      background-color: #131111;
     }
   }
   
