@@ -30,6 +30,20 @@ nav {
   font-size: 1.5em;
 }
 
+#home {
+  background: linear-gradient(
+              rgba(38, 41, 51, .7), 
+              rgba(38, 41, 51, .7)
+              ),
+              url("../images/orlando-pan-hi.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 5em;
+}
+
 @media only screen and (min-width: 431px) {
   .fa-bars {
     display: none;
