@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.fa-bars').click(function() {
-    $('.tabs').toggle();
+    $('.tabs').toggle('slow');
   });
 
   // Show main
