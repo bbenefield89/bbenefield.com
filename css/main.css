@@ -26,25 +26,29 @@ nav {
   display: none;
 }
 
-.social {
-  font-size: 1.5em;
-}
-
 #home {
   background: linear-gradient(
-              rgba(38, 41, 51, .7), 
-              rgba(38, 41, 51, .7)
+              rgba(38, 41, 51, .9), 
+              rgba(38, 41, 51, .9)
               ),
               url("../images/orlando-pan-hi.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: white;
   height: 100vh;
   padding-top: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 431px) {
+  #name {
+    float: left;
+  }
+
   .fa-bars {
     display: none;
   }
@@ -55,7 +59,7 @@ nav {
 
   #nav-links {
     display: inline;
-    float: right;
+    float: left;
     margin-top: .7em;
     width: 91%;
     text-align: center;
@@ -65,13 +69,5 @@ nav {
   #nav-links p {
     display: inline;
     margin: 0em 1em;
-  }
-
-  .social {
-    float: right;
-  }
-
-  .fa-codepen {
-    margin-right: .2em;
   }
 }
