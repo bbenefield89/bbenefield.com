@@ -27,6 +27,15 @@ nav {
   display: none;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 #home {
   background: linear-gradient(
               rgba(38, 41, 51, .9), 
