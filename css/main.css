@@ -101,6 +101,25 @@ h3 {
   color: orange;
 }
 
+#projects-section {
+  background: #232D44;
+  color: white;
+  margin: 4em 0em;
+  padding: 4em 1em 0em 1em;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-images {
+  width: 100%;
+  margin-bottom: 2em;
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 431px) {
   #name {
     float: left;
@@ -126,6 +145,12 @@ h3 {
   #nav-links p {
     display: inline;
     margin: 0em 1em;
+  }
+}
+
+@media only screen and (min-width: 706px) {
+  .project-images {
+    width: 40vw;
   }
 }
 
