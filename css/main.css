@@ -10,6 +10,7 @@ nav {
   position: fixed;
   width: 100%;
   padding: .8em;
+  z-index: 99;
 }
 
 #name {
@@ -48,6 +49,58 @@ nav {
   color: #F35724;
 }
 
+.next-section {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+h2 {
+  margin-bottom: .5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.passion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  padding: 1em .5em;
+  border: 1px solid black;
+}
+
+.fa-heart-o {
+  color: orange;
+}
+
+#design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  padding: 1em .5em;
+  border: 1px solid black;
+}
+
+.fa-institution {
+  color: orange;
+}
+
+#mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  padding: 1em .5em;
+  border: 1px solid black;
+}
+
+.fa-mobile {
+  color: orange;
+}
+
 @media only screen and (min-width: 431px) {
   #name {
     float: left;
@@ -73,5 +126,30 @@ nav {
   #nav-links p {
     display: inline;
     margin: 0em 1em;
+  }
+}
+
+@media only screen and (min-width: 893px) {
+  .about {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3em;
+  }
+
+  .passion {
+    width: 30%;
+    border: none;
+  }
+
+  #design {
+    width: 30%;
+    border: none;
+  }
+
+  #mobile {
+    width: 30%;
+    margin-top: 1em;
+    border: none;
   }
 }
