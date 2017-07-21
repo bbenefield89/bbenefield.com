@@ -41,7 +41,7 @@ a:hover {
               rgba(38, 41, 51, .9), 
               rgba(38, 41, 51, .9)
               ),
-              url("../images/orlando-pan-hi.jpg") no-repeat center center fixed;
+              url("../images/orlando-pan-hi.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
