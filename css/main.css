@@ -1,8 +1,14 @@
+/*
+** Sass variables
+*/
 body {
   margin: 0;
   padding: 0;
   font-size: 16px; }
 
+/*
+** Navigation
+*/
 nav {
   background-color: #262933;
   color: white;
@@ -29,6 +35,9 @@ a:hover {
   text-decoration: none;
   color: white; }
 
+/*
+** "Landing Page"
+*/
 #home {
   background: linear-gradient(rgba(38, 41, 51, 0.9), rgba(38, 41, 51, 0.9)), url("../images/orlando-pan-hi.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -45,6 +54,9 @@ a:hover {
 #brandon {
   color: #F35724; }
 
+/*
+** About section
+*/
 #what-i-do {
   margin-top: 8em; }
 
@@ -91,6 +103,9 @@ h2 {
 .fa-mobile {
   color: orange; }
 
+/*
+**  Projects section
+*/
 #projects-section {
   background: #232D44;
   color: white;
@@ -107,6 +122,9 @@ h2 {
   margin-bottom: 2em;
   border-radius: 10px; }
 
+/*
+** Contact section
+*/
 #hire {
   padding: 0em 1em; }
 
@@ -121,9 +139,11 @@ h2 {
 #email {
   font-size: 1em; }
 
+*************
 #email a {
   color: #232D44; }
 
+*************
 .fa-github {
   margin-right: .2em;
   color: #232D44;
@@ -133,6 +153,9 @@ h2 {
   color: #232D44; }
 
 @media only screen and (min-width: 443px) {
+  /*
+  ** Navigation
+  */
   #name {
     float: left; }
 
@@ -153,9 +176,15 @@ h2 {
     display: inline;
     margin: 0em 1em; } }
 @media only screen and (min-width: 706px) {
+  /*
+  ** Project section
+  */
   .project-images {
     width: 40vw; } }
 @media only screen and (min-width: 893px) {
+  /*
+  ** About section
+  */
   .about {
     display: flex;
     justify-content: space-around;
@@ -176,9 +205,15 @@ h2 {
     margin-top: 1em;
     border: none; }
 
+  /*
+  ** Projects section
+  */
   #projects-section {
     padding-bottom: 8em; }
 
+  /*
+  ** Contact section
+  */
   #hire {
     margin-bottom: 4em;
     padding: 0em 8em; }
