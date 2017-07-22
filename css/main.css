@@ -67,7 +67,8 @@ h2 {
   margin-bottom: .5em; }
 
 .desc {
-  font-size: 1em; }
+  font-size: 1em;
+  line-height: 1.5em; }
 
 .passion {
   display: flex;
