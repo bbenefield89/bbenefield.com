@@ -30,10 +30,9 @@ nav {
 
 a {
   color: white; }
-
-a:hover {
-  text-decoration: none;
-  color: white; }
+  a:hover {
+    text-decoration: none;
+    color: white; }
 
 /*
 ** "Landing Page"
@@ -138,12 +137,9 @@ h2 {
 
 #email {
   font-size: 1em; }
+  #email a {
+    color: #232D44; }
 
-*************
-#email a {
-  color: #232D44; }
-
-*************
 .fa-github {
   margin-right: .2em;
   color: #232D44;
@@ -171,10 +167,9 @@ h2 {
     margin-top: .7em;
     width: 91%;
     text-align: center; }
-
-  #nav-links p {
-    display: inline;
-    margin: 0em 1em; } }
+    #nav-links p {
+      display: inline;
+      margin: 0em 1em; } }
 @media only screen and (min-width: 706px) {
   /*
   ** Project section
